@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/textEncrypt/textEncrypt",
+    "pages/history/history",    
+    "pages/aboutUs/aboutUs",
+    "pages/history/setPassword/setPassword",
+    "pages/history/resetPassword/resetPassword"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff"
+  },
+  "tabBar": {
+    "backgroundColor": "#888888",
+    "borderStyle": "white",
+    "selectedColor":"#fff",
+    "color":"#000",
+    "list": [
+      {
+        "pagePath": "pages/textEncrypt/textEncrypt",
+        "text": "加解密"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      },
+      {
+        "pagePath": "pages/aboutUs/aboutUs",
+        "text": "关于我们"
+      }
+    ]
+  }
+}

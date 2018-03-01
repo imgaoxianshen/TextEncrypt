@@ -1,0 +1,34 @@
+<view class='container'>
+
+  <view class='text-container'>
+    <view class='text'>
+      <!-- <text class='text-content'>sfsdfsdfsdfsdfsdfssfsdfsdfsdfsdfsdfssfsdfsdfsdfsdfsdfs</text> -->
+      <textarea value="{{content}}" class='text-content' placeholder="请输入您要加密或者解密的密语"></textarea>
+    </view>
+    <view class='past' bindtap="onPastTap">
+      <text>粘贴</text>
+    </view>
+  </view>
+  <view class='buttom-container'>
+    <view class='buttom text-e'>
+      <text class='buttom-text'>加密</text>
+    </view>
+    <view class='buttom text-d'>
+      <text class='buttom-text'>解密</text>
+    </view>
+  </view>
+  <view class='progres-container'>
+    <progress percent="20" stroke-width="4" />
+  </view>
+  <view class='result-container'>
+    <view>
+      <text class='result-text'>原意 : {{base_msg}}</text>
+    </view>
+    <view class='end_container'>
+      <text class='result-text'>密语 : {{encode_msg}}</text>
+    </view>
+    <view class='copy' bindtap="onCopyTap">
+      <text>复制</text>
+    </view>
+  </view>
+</view>

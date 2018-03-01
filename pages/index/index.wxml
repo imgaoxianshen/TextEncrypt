@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='circles'>
+
+    <view class='circle'></view>
+    <view class='deep-circle'>
+       <image src='/images/logo.jpg' class='img_circle' bindtap='onTap'></image> 
+    </view>
+
+  </view>
+  <text class='name'>密语</text>
+</view>

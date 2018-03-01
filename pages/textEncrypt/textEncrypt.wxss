@@ -1,0 +1,99 @@
+/* pages/textEncrypt/textEncrypt.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-container{
+  display: flex;
+  flex-direction: row;
+  width: 680rpx;
+  border: 1px solid #888888;
+  padding: 20rpx;
+  height: 200rpx;
+  border-radius: 20rpx;
+  border-color: #888888;
+}
+/* .text{
+  word-break:break-all;
+} */
+
+.text-content{
+  font-size:28rpx;
+  width:530rpx;
+  height:100%;
+}
+
+.past{
+  margin-left:50rpx;
+  border:1px solid #888888;
+  width:100rpx;
+  border-radius: 8rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding: 5rpx;
+  font-size: 24rpx;
+  text-align:center;
+}
+
+.buttom-container{
+  display: flex;
+  flex-direction: row;
+  margin-top:30rpx;
+}
+
+.buttom{
+  border: 1px solid  #09bb07;
+  padding: 20rpx;
+  border-radius: 12rpx;
+  width:150rpx;
+  text-align:center;
+  height:40rpx;
+  line-height: 40rpx;
+}
+.text-e{
+  margin-right: 100rpx;
+}
+
+.text-d{
+  margin-left: 100rpx;
+}
+.buttom-text{
+  font-size:35rpx;
+  color:#09bb07;
+}
+
+.progres-container{
+  margin-top:40rpx;
+  display: inline-block;
+  width:720rpx;
+}
+
+.result-container{
+  align-self:left;
+  display: flex;
+  flex-direction: column;
+  margin-left:20rpx;
+  margin-top:50rpx;
+}
+.result-text{
+  font-size:37rpx;
+  word-break:break-all;
+}
+
+.end_container{
+  margin-top:20rpx;
+}
+
+.copy{
+  margin-top:30rpx;
+  margin-left:100rpx;
+  border:1px solid #888888;
+  width:100rpx;
+  border-radius: 8rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding: 5rpx;
+  font-size: 24rpx;
+  text-align:center;
+}

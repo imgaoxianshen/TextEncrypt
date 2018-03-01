@@ -1,0 +1,51 @@
+<view class='container'>
+  <view class='time-container'>
+    <view class='time'>
+      <text class='time-text'>2017.02.03</text>
+    </view>
+    <view class='horizn'></view>
+  </view>
+  <!--中间容器  -->
+  <view class="content-container">
+
+    <view class='content'>
+      <view class='type_d'>
+         <view class='type-text'>
+           <text>解</text> 
+        </view> 
+      </view>
+      <view class='content-text-box'>
+        <text class='content-text'>ad:我爱你</text>
+      </view>
+      <view class='type'>
+        <view class='type-text'>
+          <text>加</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='content'>
+      <view class='type'>
+        <view class='type-text'>
+          <text>解</text>
+        </view>
+      </view>
+      <view class='content-text-box'>
+        <text class='content-text'>asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd</text>
+      </view>
+      <view class='type_d'>
+        <view class='type-text'>
+          <text>加</text>
+        </view>
+      </view>
+    </view>
+<!--底部按键  -->
+<view class='buttom-container'>
+    <view class="buttom">
+      <view class='delete'><text class='delete-text'>清除历史</text></view>
+      <view class='set' bindtap="onSecretTap"><text class='delete-text'>设置密码</text></view>
+    </view>
+</view>
+
+  </view>
+</view>
